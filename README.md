@@ -36,15 +36,13 @@ The following results come from the best-performing model after full hyperparame
 Fitting 4 folds for each of 20 candidates, totalling 80 fits
 
 Best parameters:
-{
-'model__colsample_bytree': 0.7989499894055425,
-'model__gamma': 4.609371175115584,
-'model__learning_rate': 0.03654775061557585,
-'model__max_depth': 25,
-'model__min_child_weight': 9,
-'model__n_estimators': 495,
-'model__subsample': 0.9222669243390758
-}
+- **colsample_bytree:** 0.7989499894055425  
+- **gamma:** 4.609371175115584  
+- **learning_rate:** 0.03654775061557585  
+- **max_depth:** 25  
+- **min_child_weight:** 9  
+- **n_estimators:** 495  
+- **subsample:** 0.9222669243390758
 
 MAE: 7.4014 Years
 RMSE: 13.1610 Years
