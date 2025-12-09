@@ -30,3 +30,25 @@ source venv/bin/activate         # or `venv\Scripts\activate` on Windows
 pip install -r requirements.txt  # if provided
 jupyter notebook Project&Lab_ipynb_.ipynb
 ```
+## Model Peak Performance
+
+The following results come from the best-performing model after full hyperparameter optimization (80 fits total across 4-fold CV):
+Fitting 4 folds for each of 20 candidates, totalling 80 fits
+
+Best parameters:
+{
+'model__colsample_bytree': 0.7989499894055425,
+'model__gamma': 4.609371175115584,
+'model__learning_rate': 0.03654775061557585,
+'model__max_depth': 25,
+'model__min_child_weight': 9,
+'model__n_estimators': 495,
+'model__subsample': 0.9222669243390758
+}
+
+MAE: 7.4014 Years
+RMSE: 13.1610 Years
+STD of prediction errors: 13.1598 Years
+
+
+
